@@ -134,8 +134,51 @@ img {
     }
 }
 
+/* Mobile */
 @media screen and (max-width: 480px) {
-    * {
+
+    .lessons {
+
+        p {
+            margin-bottom: 3rem;
+        }
+        
+        .col {
+            width: 100%;
+        }
+    } 
+
+    .steps {
+        margin-bottom: 0;
+
+        p {
+            margin-bottom: 3rem;
+        }
+
+        .col {
+            width: 100%;
+        }
+    }
+    
+    .container {
         max-width: 480px;
+        
+        .row {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us {
+        padding: 3rem 0;
+        margin: 0;
+        background-color: #20252B;
+
+        .container {
+        }
     }
 }
